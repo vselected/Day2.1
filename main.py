@@ -36,3 +36,11 @@ print(1>2)
 # I/O with Basic files in Python
 myfile = open("test.txt")
 print(myfile.read())
+myfile.seek(0)
+print(myfile.read())
+myfile.seek(0)
+print(myfile.readlines())
+myfile.close()
+with open("test.txt") as my_new_file:
+    contents = my_new_file.read()
+    print(contents)
