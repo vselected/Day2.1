@@ -29,3 +29,8 @@ my_set = set("Mississippi")
 print(my_set)
 
 # Booleans
+print(type(True))
+print(1==1)
+print(1>2)
+
+# I/O with Basic files in Python
