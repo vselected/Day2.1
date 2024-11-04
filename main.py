@@ -34,3 +34,5 @@ print(1==1)
 print(1>2)
 
 # I/O with Basic files in Python
+myfile = open("test.txt")
+print(myfile.read())
